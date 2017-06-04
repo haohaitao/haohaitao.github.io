@@ -24,12 +24,9 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
-
+paginate: 5 # 指定每页多少条
 # Comments
 disqus_shortname:   taylantatli
-# Pagination #分页
-per_page: 5 #每页文章数，设置成 0 禁用分页
-pagination_dir: page
 # Social
 # if you don't have any of social below, comment the line.
 #google:
