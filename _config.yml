@@ -3,7 +3,7 @@ name: 个人博客
 bio: 跟随你的心
 
 # twitter summary info
-description: A blog about technology and stuff related
+description:  春水碧于天，画船听雨眠。
 
 # if it's an external image, update below for true
 # better with square images
@@ -60,7 +60,7 @@ authors:
         name: James Foster
         bio: A Man who develops software with coffee
         external-image: false
-        picture: assets/images/james.jpg
+        picture:  assets/images/profile.jpg
         twitter: jamesfoster
 
 # do you want a larger site? change the option below
