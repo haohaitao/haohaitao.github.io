@@ -16,10 +16,10 @@ layout: page
 
 </ul>
 
-<h2>自学网站</h2>
+<h2>Website recommends</h2>
 
 <ul>
-	<li><a href="http://www.icourse163.org/">中国大学MOOC</a></li>
-	<li><a href="http://www.imooc.com/">慕课网</a></li>
-	<li><a href="http://www.233.com/">233网校</a></li>
+	<li><a href="http://www.icourse163.org/">Chinese universities MOOC</a></li>
+	<li><a href="http://www.imooc.com/">IMOOC</a></li>
+	<li><a href="http://www.233.com/">233 online school</a></li>
 </ul>
