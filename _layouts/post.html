@@ -9,7 +9,7 @@ layout: page
 <h1 class="title">{{ page.title }}</h1>
 
 <span class="date">
-    <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
+    <time datetime="{{ site.time | date_to_xmlschema  }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
     {% if site.read-time %} - {% include read-time.html %}{% endif %}
 </span>
 
@@ -18,6 +18,11 @@ layout: page
         {% for tag in page.tags %}
             <a class="item" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
         {% endfor %}
+
+        <!-- UY BEGIN -->
+        <div id="uyan_frame"></div>
+        <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2135684"></script>
+        <!-- UY END -->
     </div>
 {% endif %}
 
@@ -38,6 +43,10 @@ layout: page
         <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2135684"></script>
         <!-- UY END -->
     </div>
+    <!-- UY BEGIN -->
+    <div id="uyan_frame"></div>
+    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2135684"></script>
+    <!-- UY END -->
 {% endif %}
 
 {% if site.related %}
