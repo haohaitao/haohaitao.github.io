@@ -40,12 +40,12 @@ disqus:
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: https://haohaitao.github.io/
+github: 596336501
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: https://haohaitao.github.io/
+medium: 596336501
 # vimeo: myvimeo
 email: 596336501@qq.com
 
@@ -55,13 +55,13 @@ authors:
         bio: 跟随你的心
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
+
     jamesfoster:
         name: hht
         bio: 春水碧于天，画船听雨眠。
         external-image: false
         picture:  assets/images/profile.jpg
-        twitter: jamesfoster
+
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -73,7 +73,7 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: false
+projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
