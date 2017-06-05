@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://haohaitao.github.io/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -53,8 +53,8 @@ email: myemail@gmail.com
 
 authors:
     johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+        name: hht
+        bio: 跟随你的心
         external-image: false
         picture: assets/images/profile.jpg
         twitter: johndoe
