@@ -1,106 +1,53 @@
-# main text of home
-name: 个人博客
-bio: 跟随你的心
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+url: "username.github.io" # the base hostname & protocol for your site.
 
-# twitter summary info
-description:  春水碧于天，画船听雨眠。
+paginate: 6 #articles per page
+paginate_path: /blog/page:num #makes pagination working
 
-# if it's an external image, update below for true
-# better with square images
-external-image: false
-picture: assets/images/profile.jpg
+# header text
+title: Your awesome site name :)
+header: Write something about you here...
 
-# If you want to include your resume, set to true
-# and specify source (external or local).
-resume: false
-resume-external: false
+# for welcome page
+# to replace image go to index.html
+email:
+  address: "user@example.com"
+  text: "user (at) example.com"
 
-url: https://haohaitao.github.io/
-# your url: http://USERNAME.github.io
-
-permalink: /:title/
-
-# To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
-
-# To enable piwik tracking, supply your url & site ID below
-# analytics-piwik-url: 'piwik.my-host.com'
-# analytics-piwik-id: 1
-
-# if you don't want comments in your posts, leave categories empty
+# disqus comment
 disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog] # only show disqus for posts that have these categories
+    shortname: "test" #your disqus comment short name
 
-# if you don't have any of social below, comment the line
-# google: mygoogle
-# instagram: myinstagram
-# pinterest: mypinterest
-# linkedin: mylinkedin
-# youtube: myyoutube
-# spotify: myspotify
-github: 596336501
-# lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
-# quora: userquora
-# reddit: username
-medium: 596336501
-# vimeo: myvimeo
-email: 596336501@qq.com
-
-authors:
-    johndoe:
-        name: hht
-        bio: 跟随你的心
-        external-image: false
-        picture: assets/images/profile.jpg
-
-    jamesfoster:
-        name: hht
-        bio: 春水碧于天，画船听雨眠。
-        external-image: false
-        picture:  assets/images/profile.jpg
-
-
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: normal
-
-# if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
-
-# if you don't need projects, comment the *projects* configs below
-projects: false
-
-# if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
-
-# do you want to show the "read time" of the posts?
-read-time: true
-
-# do you want to show the "tags" inside the posts?
-show-tags: true
-
-# related posts inside a post?
-related: true
-
-# Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
-
-# show author block at the end of a post ?
-show-author: true
-
-# do you want some animations?
-animation: true
+# google analytics
+google:
+    tracking-id: "" #your tracking id here
 
 gems:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
   - jemoji
 
-jekyll-mentions:
-    base_url: https://github.com
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+permalink: /posts/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
