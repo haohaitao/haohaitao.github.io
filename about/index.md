@@ -11,4 +11,4 @@ comments: false
 
 
 联系方式：<a href="#">596336501@qq.com</a>
-<center><a href="https://github.com/haohaitao/haohaitao.github.io/blob/master/assets/img/cite%20photo.jpg"> <b>站长照片<b></center>
+<center><a href="https://github.com/haohaitao/haohaitao.github.io/blob/master/assets/img/cite%20photo.jpg?raw=true"> <b>站长照片<b></a></center>
