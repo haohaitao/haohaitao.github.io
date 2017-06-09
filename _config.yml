@@ -1,53 +1,29 @@
-baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "username.github.io" # the base hostname & protocol for your site.
+# Site settings
+title: Daktilo
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-paginate: 6 #articles per page
-paginate_path: /blog/page:num #makes pagination working
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://hitchhiker.ma" # the base hostname & protocol for your site
 
-# header text
-title: Your awesome site name :)
-header: Write something about you here...
+author:
+  fullname: Motaquillah Maddane
+  googleplus: https://www.google.com/+MotaquillahMaddane
+  github: kronik3r
+  twitter: electrik_frog
+  # disqus: your_disqus_forum_shortname
 
-# for welcome page
-# to replace image go to index.html
-email:
-  address: "user@example.com"
-  text: "user (at) example.com"
+# google_analytics: 'UA-XXXXXXXX-X'
 
-# disqus comment
-disqus:
-    shortname: "test" #your disqus comment short name
+# Syntax highlighting
+highlightstyle: ''
+styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
 
-# google analytics
-google:
-    tracking-id: "" #your tracking id here
+# Handling Reading
+exclude: ["README.md", "README.html"]
 
-gems:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
-
-# This is used by feed.xml. Uncomment if you want to use it.
-# description: "..."
-
-exclude:
-  - "README.md"
-  - "CHANGELOG.md"
-  - "Gemfile"
-  - "Gemfile.lock"
-
-permalink: /posts/:title
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# Build settings
+highlighter: null
+markdown: kramdown

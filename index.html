@@ -1,9 +1,18 @@
 ---
-layout: welcome
-welcome_img: "https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/e15/11208586_1596699727213864_1958685864_n.jpg"
+layout: page
+title: Blog
+subtitle: Hitchhiker's guid to web development
+sitemap:
+  priority: 0.9
 ---
 
-<div class="text-center">
-  <img class="circular" src="{{page.welcome_img}}" >
-  <p>contact me <a href="mailto:{{site.email.address}}">{{site.email.text}}</a></p>
-</div>
+<ul class="list-posts">
+    {% for post in site.posts %}
+        <li class="post-teaser">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <span class="post-teaser__title">{{ post.title }}</span>
+                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
