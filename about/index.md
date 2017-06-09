@@ -10,5 +10,5 @@ comments: false
 ##### 不定时维护。
 
 
-联系方式：<a href="596336501@qq.com">596336501@qq.com</a>
-<center><a href="https://github.com/haohaitao/haohaitao.github.io/blob/master/assets/img/cite%20photo.jpg"><b>Moon</b></a> 站长照片</center>
+联系方式：<a href="#">596336501@qq.com</a>
+<center><a href="https://github.com/haohaitao/haohaitao.github.io/blob/master/assets/img/cite%20photo.jpg"> <b>站长照片<b></center>
