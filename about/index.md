@@ -11,4 +11,3 @@ comments: false
 
 
 联系方式：<a href="#">596336501@qq.com</a>
-<center><a href="#"> <b>站长照片<b>
